@@ -1,0 +1,30 @@
+.nav-bar{
+    height: 6%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    opacity: 80%;
+}
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    font-size: large;
+    padding-right: 20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.nav-items a:hover{
+    transform: translateY(4px);
+    color: #ff004f;
+}

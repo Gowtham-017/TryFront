@@ -1,0 +1,69 @@
+.modelccontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.modelccontent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.evnttcreatebox{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    padding: 20px 20px;
+}
+.eventtdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 20%;
+    height: 60%;
+    gap: 10px;
+}
+.eventtdetails input,textarea{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size:medium;
+}
+.eventtdetails input,textarea{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.creatbutton{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px 15px;
+    font-size: 1em;
+    font-weight: 500;
+    background: tan;
+    font-family: inherit;
+    width: 150px;
+    cursor: pointer;
+}
+.rightbox{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+.pbody {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+  width: 80%;
+  cursor: pointer;
+}
+.card {
+  margin: 10px;
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px 5px #92b9d556;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-details {
+  padding: 10px;
+  text-align: center;
+}
+.modelsscontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modelsscontent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

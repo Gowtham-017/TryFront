@@ -1,0 +1,44 @@
+.landing-page{
+    background: #26211D;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.landing-item{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    background: none;
+}
+.landing-item h1{
+    font-size: 80px;
+}
+.landing-item p{
+    font-size: 70px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.page-image{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border-radius: 50px;
+}
+.get-start-button{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: #FFF;
+    cursor: pointer;
+}
+.get-start-button a{
+    text-decoration: none;
+    color: black;
+}
+.over {
+    opacity: 85%;
+}

@@ -1,0 +1,33 @@
+.nav-bars{
+    height: 8%;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0;
+    z-index: 1000;
+    position: fixed;
+}
+.nav-item{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    font-size: large;
+    padding-right: 40px;
+}
+.nav-item button{
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.nav-item button:hover{
+    transform: translateY(4px);
+    color: #ff004f;
+}

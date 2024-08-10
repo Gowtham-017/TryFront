@@ -1,0 +1,56 @@
+.service-area {
+    overflow: hidden;
+    width: 85%;
+    position: absolute;
+    background: white;
+}
+.service-card {
+    display: flex;
+    gap: 50px;
+    overflow: auto;
+    height: 500px;
+    width: 100%;
+    padding: 20px 25px;
+}
+.service-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0000005d;
+    width: 400px;
+    flex: 0 0 auto;
+}
+.service-item:hover{
+    transform: scale(0.9);
+    box-shadow: #383838;
+    cursor: pointer;
+}
+.service-item img {
+    height: 300px;
+    width: 100%;
+}
+.service-desc p {
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.service-item button{
+    width: 70%;
+}
+.service-desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.service-desc button{
+    background: #383838;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.service-desc a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.starts {
+  height: 100vh;
+  background-size: cover;
+  background: #aaaaaa2a;
+}
+.start-page {
+  display: flex;
+  position: absolute;
+  gap: 30px;
+  top: 50%;
+  left: 37%;
+}
+.start-button {
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

@@ -1,0 +1,36 @@
+.container2 {
+  margin: auto;
+  padding: 20px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.tables {
+  background: #efecec;
+  width: 800px;
+  min-height: 300px;
+  border: 1px solid white;
+  height: auto;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.508);
+  cursor: pointer;
+}
+.thh {
+  height: 60px;
+}
+.tdd {
+  height: 20px;
+  text-align: center;
+}
+.tdd:hover {
+  background: #aaaaaa84;
+}
+.remove-user {
+  width: 80px;
+  height: 50px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: white;
+}

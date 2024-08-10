@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.adminhome-page{
+    height: 100vh;
+    background-image: url("../adminasset/tech6.jpg");
+    background-size: cover;
+    opacity: 90%;
+    color: white;
+}
+.home-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.home-content{
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.himg img{
+    height: 400px;
+    width: 500px;
+    margin-top: 50px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+.getstarted{
+    width: 200px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color:white;
+    transition: transform 0.3s ease;
+}
+.getstarted:hover{
+    background-color: rgb(48, 162, 162);
+    color: white;
+    transform: translateY(10px);
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+}

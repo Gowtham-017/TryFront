@@ -1,0 +1,42 @@
+.addpage {
+  padding-top: 150px;
+}
+.addevt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  gap: 20px;
+  width: 500px;
+}
+.addevt input {
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  background: whitesmoke;
+  border: none;
+  outline: none;
+  font-size: medium;
+}
+fieldset {
+  background: #aaaaaa3e;
+  border-radius: 20px;
+  height: 350px;
+  padding-top: 10px;
+}
+legend {
+  font-size: 20px;
+}
+.addevt button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a40;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

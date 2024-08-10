@@ -1,0 +1,54 @@
+.eventdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.evntcreatebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.createboxright{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.eventdetails input,textarea{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: medium;
+}
+.createbutton{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px 15px;
+    font-size: 1em;
+    font-weight: 500;
+    background: tan;
+    font-family: inherit;
+    width: 150px;
+    cursor: pointer;
+}
+.forms-data{
+    border: 1px solid black;
+    height: 150px;
+    margin-left: 160px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.close-icon{
+    position: absolute;
+    top: 2%;
+    left: 95%;
+    cursor: pointer;
+    color: black;
+}
